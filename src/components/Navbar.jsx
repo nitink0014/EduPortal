@@ -10,10 +10,8 @@ const Navbar = () => {
     <nav className="bg-gray-900 text-white shadow-md">
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         <Link to="/" className="flex items-center gap-2">
-          {/* Logo Image */}
-          {/* Logo Image */}
           <img
-            src="src/images/ZTH.jpg" // <-- your logo image here (public folder)
+            src="./images/ZTH.jpg" // <-- your logo image here (public folder)
             alt="ZTH Wallah Logo"
             className="h-10 w-10 object-contain rounded-full"
           />
