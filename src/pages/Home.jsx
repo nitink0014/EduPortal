@@ -3,7 +3,8 @@ const Home = () => {
   return (
     <div
       className="relative flex flex-col items-center justify-center min-h-screen text-white p-6 
-                 bg-[url('./books-8934573.jpg')] bg-cover bg-center"
+                bg-cover bg-center"
+      style={{ backgroundImage: "url('/books-8934573.jpg')" }}
     >
       {/* Dark overlay for readability */}
       <div className="absolute inset-0 bg-black/50"></div>
