@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         <Link to="/" className="flex items-center gap-2">
           <img
-            src="./images/ZTH.jpg" // <-- your logo image here (public folder)
+            src="./ZTH.jpg" // <-- your logo image here (public folder)
             alt="ZTH Wallah Logo"
             className="h-10 w-10 object-contain rounded-full"
           />
